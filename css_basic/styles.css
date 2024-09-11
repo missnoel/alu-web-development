@@ -1,6 +1,11 @@
 body {
    display: flex;
    flex-direction: column;
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+   color: #333;
 }
 main {
     display: flex;
@@ -11,8 +16,59 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+article h1, article h2, article h3 {
+    color: #333;
 }
 aside {
     flex: 1;
     overflow: auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem; /* Makes the logo bigger */
+    margin-right: 20px; /* Adds some space after the logo */
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
