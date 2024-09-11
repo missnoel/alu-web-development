@@ -1,0 +1,42 @@
+/* base.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+aside {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
