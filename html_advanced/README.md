@@ -10,3 +10,5 @@ Ensure Compatibility: Write HTML that works across all modern web browsers and *
 
 ## Project Details
 Figma Design File: You can access the design file on Figma [here.](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=3558-0&node-type=frame&t=XUD9C5YDIP2hZB3l-0)
+
+![Below is an example of what to expect:](https://www.figma.com/design/dyYL6Ku4WG7vsdpwvlcJZC/Homepage?node-id=3558-0&node-type=frame&t=XUD9C5YDIP2hZB3l-0)
