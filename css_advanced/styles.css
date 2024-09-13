@@ -1,3 +1,128 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
   background: #fff;
   color: #000;
@@ -126,9 +251,6 @@ div.contacts {
   background: #ffffff;
 }
 
-
-
-
 .button {
   display: flex;
   width: 162px;
@@ -183,18 +305,14 @@ div.contacts {
   left: 217px;
   gap: 0px;
 }
-.testimonial{
-    min-height: 30vh;
-    background:#c271ff;
-    padding: 4rem 8rem;
-
+.testimonial {
+  background: #c271ff;
+  padding: 8rem;
 }
-.testimonial-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-
-
+.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 #pro-1 {
   width: 150px;
@@ -238,58 +356,43 @@ div.contacts {
   text-align: center;
   background: #ffffff;
 }
-ection2 {
-  width: 1440px;
-  height: 392px;
-  top: 1093px;
-  left: -1px;
-  gap: 0px;
-  background: #c271ff;
-}
+
 .testimonial-avatar {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    background: #32a2a8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #32a2a8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
 }
 .quote {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-
-
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 2rem;
 }
-blockquote {
 
+.quote p {
   font-family: Source Sans Pro;
   font-size: 22px;
   font-weight: 400;
-  line-height: 33.6px;
-  text-align: left;
-
 }
-.name {
+.quote .name {
   font-family: Source Sans Pro;
   font-size: 22px;
-  font-weight: 700;
-  line-height: 33.6px;
-  text-align: left;
-
-
+  font-weight: bold;
 }
-.role {
 
+.role {
   font-family: Source Sans Pro;
   font-size: 22px;
   font-style: italic;
-  font-weight: 400;
-  line-height: 33.6px;
+  font-weight: light;
   text-align: left;
-
 }
+
 .tutorials {
   width: 294px;
   height: 40px;
