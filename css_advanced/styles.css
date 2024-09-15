@@ -124,15 +124,27 @@ table {
 }
 
 body {
-  background: #fff;
-  color: #000;
+  /* The image used */
+
+  /* Center and scale the image nicely */
+}
+
+.container {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url('./Bitmap.png');
+  background-size: cover;
+  width: 100%;
+  /* margin: 0 auto; */
+  position: relative;
+  padding: 0 2rem;
+  height: 100vh;
+  /* filter: grayscale(100%); */
 }
 
 header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #000;
   align-items: center;
 }
 
@@ -157,8 +169,7 @@ div.contacts {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 4rem;
+  justify-content: space-between;
   margin-top: 4rem;
 }
 
@@ -173,10 +184,21 @@ div.contacts {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background: #32a2a8;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contact-card .avatar img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.contact-card h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 700;
 }
 
 .perks {
@@ -185,7 +207,7 @@ div.contacts {
   justify-content: center;
   gap: 16px;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   margin-bottom: 2rem;
 }
 .getschooled {
@@ -195,22 +217,35 @@ div.contacts {
   font-size: 5rem;
   font-weight: 700px;
   font-family: sans-serif;
-  color: #000;
-  background: red;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  margin: 4rem 0 4rem 0;
 }
 
 .nav {
   display: flex;
   gap: 1rem;
+  margin-right: 2rem;
+  padding: 2rem;
 }
 .nav div {
-  margin-right: 12px;
+  /* margin-right: 12px; */
 }
 
 .nav div a {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+}
+.best {
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
 }
 
 .courses {
@@ -289,25 +324,19 @@ div.contacts {
   align-items: center;
   justify-content: center;
   font-family: Source Sans Pro;
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 28px;
   line-height: 40.22px;
   text-align: center;
+  color: #ccc;
 }
 .pros span {
   color: #c271ff;
   margin-right: 0.5rem;
 }
-#pros {
-  width: 1009px;
-  height: 237px;
-  top: 758px;
-  left: 217px;
-  gap: 0px;
-}
+
 .testimonial {
   background: #c271ff;
-  padding: 8rem;
+  padding: 8rem 12rem;
 }
 .testimonial-container {
   display: flex;
@@ -394,16 +423,10 @@ div.contacts {
 }
 
 .tutorials {
-  width: 294px;
-  height: 40px;
-  left: 482px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Source Sans Pro;
-  font-size: 32px;
-  font-weight: 300;
-  line-height: 40.22px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
 }
 #tuto_1 {
   width: 255px;
