@@ -423,44 +423,35 @@ div.contacts {
 }
 
 .tutorials {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.tutorials-container {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
-  margin-top: 4rem;
+  align-items: center;
+  margin-top: 2rem;
 }
-#tuto_1 {
-  width: 255px;
-  height: 335px;
-  top: 115px;
-  left: 58px;
-  gap: 0px;
-  opacity: 0px;
+.tutorials span {
+  color: #c271ff;
+  margin-right: 0.5rem;
+  font-weight: 700;
 }
-#tuto_2 {
-  width: 255px;
-  height: 335px;
-  top: 115px;
-  left: 344px;
-  gap: 0px;
-  opacity: 0px;
-  background: #ffffff;
-  box-shadow: 0px 2px 4px 0px #0716292e;
+
+.tutorials-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  flex-direction: row;
 }
-#tuto_3 {
-  width: 255px;
-  height: 335px;
-  top: 115px;
-  left: 629px;
-  gap: 0px;
-  opacity: 0px;
-}
-#tuto_4 {
-  width: 255px;
-  height: 335px;
-  top: 115px;
-  left: 914px;
-  gap: 0px;
-  opacity: 0px;
+.tuto {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
 }
 .preview {
   width: 255px;
@@ -469,18 +460,12 @@ div.contacts {
   opacity: 0px;
 }
 .diagonal {
-  width: 106px;
-  height: 20px;
-  top: 172px;
-  left: 13px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Source Sans Pro;
   font-size: 16px;
   font-weight: 700;
   line-height: 20.11px;
   text-align: left;
-  background: #071629;
+  padding: 0.5rem;
 }
 .sad {
   width: 70px;
@@ -536,57 +521,40 @@ div.contacts {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  background: #07162980;
 }
-#rating {
-  width: 107px;
-  height: 15px;
-  top: 305px;
-  left: 13px;
-  gap: 0px;
-  opacity: 0px;
-}
-.min {
-  width: 34px;
-  height: 27px;
-  top: 297px;
-  left: 199px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Source Sans Pro;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 27px;
-  text-align: right;
-  background: #c271ff;
-}
-.phil {
-  width: 86px;
-  height: 27px;
-  top: 263px;
-  left: 56px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Source Sans Pro;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 27px;
-  text-align: left;
-  background: #c271ff;
-}
+
 .pfp {
   width: 30px;
   height: 30px;
-  top: 261px;
-  left: 13px;
-  gap: 0px;
-  opacity: 0px;
+  border-radius: 50%;
 }
-#section3 {
-  width: 255px;
-  height: 335px;
-  gap: 0px;
-  opacity: 0px;
-  box-shadow: 0px 2px 4px 0px #0716292e;
-  background: #ffffff;
+.pfp-container {
+  /* display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 0.4rem; 
+  justify-content: space-between; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  justify-content: row;
+}
+.phil {
+  color: #c271ff;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.min {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c271ff;
 }
